@@ -5,10 +5,14 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(name){
-  var greet = `Happy holidays , ${name}`;
+  var greet = `Happy holidays , ${name}!`;
   return greet;
 }
 
 function happyHolidayTo(holiday,name){
-  var greet = `Happy ${holiday}, ${name}`;
+  var greet = `Happy ${holiday}, ${name}!`;
+}
+
+function  holidayCountdown(holiday,days){
+  var count = `It's ${days} until ${holiday}!`
 }
